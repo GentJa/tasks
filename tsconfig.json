@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "target": "es2015", // Specify ECMAScript target version
+        "lib": [
+            "es2015",
+            "dom"
+        ], // Include the ECMAScript library and DOM
+        "module": "commonjs" // Specify module code generation
+    }
+}
