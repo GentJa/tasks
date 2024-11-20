@@ -10,6 +10,8 @@
 
 const hasUniqueChars = (s: string) : boolean => { 
     const charSet = new Set();
+
+    // improvment to check if the str.length > 128 -> return false
     //store unique values of any type
     // chartSet is an instance of the Set object, which stores only unique values.
     // so each character will be checked against this Set to see if it is already been seen.
