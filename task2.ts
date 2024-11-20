@@ -10,6 +10,8 @@ import {assert} from 'chai';
 // The breakeChocolate function calculates the minimum number of breaks needed to split a chocolate bar of size n x m into
 //  individual 1x1 squares. If either n or m is 0, the function returns 0, as no breaks are needed (no chocolate). Otherwise, it calculates the breaks as n * m - 1.
 const breakeChocolate = (n: number, m: number): number => {
+    //imrpovment ->     // Check for invalid input (either negative or zero)     if (n <= 0 || m <= 0) return 0;
+
     if (n === 0 || m === 0) return 0;
     return n * m - 1;
 }
